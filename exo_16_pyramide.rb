@@ -14,9 +14,8 @@ end
 x.times do
     while x > 0
         x = x-1
-        print espace*(x)
-        print brique*(i)
-        puts brique*(i-1)
+        print espace*(x+1)
+        puts brique*(i)
         i+=1 
     end
 end
